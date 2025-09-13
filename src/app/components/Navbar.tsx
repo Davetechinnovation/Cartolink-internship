@@ -34,7 +34,7 @@ function Navbar() {
                         }`}
                 >
                     <div
-                        className='absolute inset-0 bg-blk  bg-opacity-50'
+                        className='absolute inset-0 bg-wt  bg-opacity-50'
                         onClick={() => setIsMenuOpen(false)}
                     ></div>
                     <div className='relative bg-bgg  min-h-screen w-full ml-auto transition-transform duration-300 ease-in-out'>
@@ -46,7 +46,7 @@ function Navbar() {
                                 <div className='bg-gradient-to-r from-[#f0b0ff] via-[#bac9ff] to-[#ceddff] w-[30px] h-[30px] rounded-full '></div>
                                 <button
                                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                                    className='p-1 focus:outline-none text-wt '
+                                    className='p-1 focus:outline-none text-blk '
                                 >
                                     {isMenuOpen ? <X className='w-8 h-8' /> : <Menu className='w-6 h-6' />}
                                 </button>
@@ -55,11 +55,11 @@ function Navbar() {
                             </div>
 
                             <div className='flex flex-col px-2 py-3 text-wt gap-2  '>
-                                <div className='flex gap-1 items-center  text-wt p-2 rounded-[10px] '>
+                                <div className='flex gap-1 items-center  text-blk p-2 rounded-[10px] '>
                                     <p><ImagePlus /></p>
-                                    <p className='text-wt'>Gallery</p>
+                                    <p className='text-blk'>Gallery</p>
                                 </div>
-                                <div className='flex gap-1 text-wt items-center p-2 rounded-[10px] '>
+                                <div className='flex gap-1 text-blk items-center p-2 rounded-[10px] '>
                                     <p><Headset /></p>
                                     <p>Support</p>
                                 </div>
