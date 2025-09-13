@@ -3,7 +3,6 @@ import React, { useState, useEffect } from "react"
 import useEmblaCarousel from "embla-carousel-react"
 import Autoplay from "embla-carousel-autoplay"
 import Image from "next/image"
-import CorouselSkeleton from './CorouselSkeleton'
 
 const images = [
     { src: "/1.webp", className: "w-[90%] sm:w-1/2" },
@@ -19,7 +18,6 @@ const images = [
 ]
 
 export default function Carousel() {
-    const [isLoading, setIsLoading] = useState(true);
     const [emblaRef, emblaApi] = useEmblaCarousel(
         { loop: true, align: "start" },
         [Autoplay({ delay: 2500 })]
@@ -36,10 +34,6 @@ export default function Carousel() {
         onSelect()
     }, [emblaApi])
 
-    if (isLoading) {
-        return <CorouselSkeleton />;
-    }
-
     return (
         <div className="sm:pt-[60px] pb-[20px] py-[20px]">
             {/* Carousel */}
@@ -53,10 +47,7 @@ export default function Carousel() {
                                 alt={`Slide ${i}`}
                                 width={800}
                                 height={500}
-                                className="rounded-lg object-cover w-full h-auto filter brightness-80"
-                                priority={i === 0}
-                                onLoad={i === 0 ? () => setIsLoading(false) : undefined}
-                                onError={i === 0 ? () => setIsLoading(false) : undefined}
+                                className="rounded-lg object-cover w-full h-auto filter brightness-80 "
                             />
                             <div className="absolute bottom-2 sm:bottom-5 left-0 flex items-center justify-center">
                                 <div className="max-w-[400px]  px-4 ">
