@@ -5,7 +5,7 @@ import Autoplay from "embla-carousel-autoplay"
 import Image from "next/image"
 
 const images = [
-    { src: "/1.webp", className: "w-[90%] sm:w-1/2" },
+    { src: "/1.webp", className: "w-[90%] sm:w-1/2 border  border-black rounded-[10px] " },
     { src: "/wineframe.png", className: "w-[75%] sm:w-[38%]  " },
     { src: "/1.webp", className: "w-[90%] sm:w-1/2" },
     { src: "/wineframe.png", className: "w-[75%] sm:w-[38%]" },
