@@ -29,8 +29,8 @@ export default function Toggle() {
   return (
     <div
       onClick={toggleTheme}
-      className='bg-gray-200 p-2 cursor-pointer rounded-[4px]'> {isDark ? <Sun className='w-5 h-5' /> : <Moon className='w-5 h-5' />}
-      document.documentElement.classList.toggle("dark");
+      className='bg-gray-200 p-2 cursor-pointer rounded-[4px]'> {isDark ? <Sun /> : <Moon />}
+     
     </div>
   )
 }

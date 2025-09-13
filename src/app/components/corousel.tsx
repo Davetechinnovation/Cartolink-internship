@@ -80,7 +80,7 @@ export default function Carousel() {
                     <button
                         key={i}
                         onClick={() => emblaApi && emblaApi.scrollTo(i)}
-                        className={`h-2 w-2 rounded-full cursor-pointer transition-all ${selectedIndex === i ? "bg-black cursor-pointer scale-125" : "bg-gray-400"
+                        className={`h-2 w-2 rounded-full cursor-pointer transition-all ${selectedIndex === i ? "bg-blk cursor-pointer scale-125" : "bg-gray-400"
                             }`}
                     />
                 ))}

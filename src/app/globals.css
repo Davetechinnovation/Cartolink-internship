@@ -5,19 +5,22 @@
     --color-bgg: var(--color-bgg);
     --color-blk: var(--color-blk);
     --color-wt: var(--color-wt);
+    --color-gra: var(--color-gra);
     
 }
 
 :root{
     --color-background: white;
-    --color-bgg: black;
+    --color-back: black;
     --color-blk: black;
     --color-wt: white;
+    --color-gra: #374151;
 }
 
 .dark {
     --color-background: black;
-    --color-bgg: white;
+    --color-back: white;
     --color-blk: white;
     --color-wt: black;
+    --color-gra: white;
 }
