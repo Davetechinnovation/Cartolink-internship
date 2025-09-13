@@ -52,14 +52,14 @@ export default function Carousel() {
                             <div className="absolute bottom-2 sm:bottom-5 left-0 flex items-center justify-center">
                                 <div className="max-w-[400px]  px-4 ">
                                   
-                                    <h2 className="sm:text-[25px] text-[19px] font-extrabold text-white drop-shadow-md">
+                                    <h2 className="sm:text-[25px] text-[19px] font-extrabold text-wt drop-shadow-md">
                                         {img.src === "/1.webp"
                                             ? "WAN 2.2 Image Generation"
                                             : "Flux.1 Krea"}
                                     </h2>
 
                                
-                                    <p className="text-white text-lg font-bold text-[12px] sm:text-[14px]   rounded-lg mt-1 sm:mt-2 inline-block">
+                                    <p className="text-wt text-lg font-bold text-[12px] sm:text-[14px]   rounded-lg mt-1 sm:mt-2 inline-block">
                                         {img.src === "/1.webp"
                                             ? "Generate complex images with the brand new powerful WAN 2.2 model. Exceptional prompt adherence and ultra realistic textures. "
                                             : "We are making the weights for our FLUX.1 krea model open source. Download and run our model weights, read the technical report, or generate with it in krea image. "}

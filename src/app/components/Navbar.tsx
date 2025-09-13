@@ -40,7 +40,7 @@ function Navbar() {
                     <div className='relative bg-bgg  min-h-screen w-full ml-auto transition-transform duration-300 ease-in-out'>
                         <div className='bg-bgg  min-h-screen w-full rounded-[10px] '>
                             <div className='flex justify-between p-3 gap-2 items-center'>
-                                <div className=' bg-gray-200  text-blk p-1 rounded-[10px]'>
+                                <div className=' bg-gr  text-blk p-1 rounded-[10px]'>
                                     <p><Bell /></p>
                                 </div>
                                 <div className='bg-gradient-to-r from-[#f0b0ff] via-[#bac9ff] to-[#ceddff] w-[30px] h-[30px] rounded-full '></div>
@@ -66,7 +66,7 @@ function Navbar() {
 
                             </div>
 
-                            <div className='bg-gray-200 flex justify-between gap-2 p-2  mx-3 rounded-[15px]  md:hidden '>
+                            <div className='bg-gr flex justify-between gap-2 p-2  mx-3 rounded-[15px]  md:hidden '>
                                 <p className=' bg-white rounded-[12px] p-2'>
                                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 11.7354C2 10.4141 2 9.75338 2.18958 9.15972C2.35736 8.63437 2.63195 8.14939 2.99611 7.73524C3.40763 7.26724 3.97416 6.92732 5.10723 6.24748L8.70722 4.08748C9.90443 3.36916 10.503 3.01 11.142 2.86967C11.7073 2.74555 12.2927 2.74555 12.858 2.86967C13.497 3.01 14.0956 3.36916 15.2928 4.08748L18.8928 6.24748C20.0258 6.92732 20.5924 7.26724 21.0039 7.73524C21.3681 8.14939 21.6426 8.63437 21.8104 9.15972C22 9.75338 22 10.4141 22 11.7354V18.9118C22 20.0319 22 20.592 21.782 21.0198C21.5903 21.3961 21.2843 21.7021 20.908 21.8938C20.4802 22.1118 19.9201 22.1118 18.8 22.1118H18.2C17.0799 22.1118 16.5198 22.1118 16.092 21.8938C15.7157 21.7021 15.4097 21.3961 15.218 21.0198C15 20.592 15 20.0319 15 18.9118V15.7118C15 15.1518 15 14.8717 14.891 14.6578C14.7951 14.4697 14.6422 14.3167 14.454 14.2208C14.2401 14.1118 13.9601 14.1118 13.4 14.1118H10.6C10.0399 14.1118 9.75992 14.1118 9.54601 14.2208C9.35785 14.3167 9.20487 14.4697 9.10899 14.6578C9 14.8717 9 15.1518 9 15.7118V18.9118C9 20.0319 9 20.592 8.78201 21.0198C8.59027 21.3961 8.28431 21.7021 7.90798 21.8938C7.48016 22.1118 6.9201 22.1118 5.8 22.1118H5.2C4.0799 22.1118 3.51984 22.1118 3.09202 21.8938C2.71569 21.7021 2.40973 21.3961 2.21799 21.0198C2 20.592 2 20.0319 2 18.9118V11.7354Z" fill="currentColor"></path></svg>
                                 </p>
@@ -90,7 +90,7 @@ function Navbar() {
             </div>
 
 
-            <div className='bg-gray-200 md:flex gap-2 p-2 rounded-[15px]  hidden '>
+            <div className='bg-gr md:flex gap-2 p-2 rounded-[15px]  hidden '>
                 <p className=' bg-white rounded-[12px] p-2'>
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 11.7354C2 10.4141 2 9.75338 2.18958 9.15972C2.35736 8.63437 2.63195 8.14939 2.99611 7.73524C3.40763 7.26724 3.97416 6.92732 5.10723 6.24748L8.70722 4.08748C9.90443 3.36916 10.503 3.01 11.142 2.86967C11.7073 2.74555 12.2927 2.74555 12.858 2.86967C13.497 3.01 14.0956 3.36916 15.2928 4.08748L18.8928 6.24748C20.0258 6.92732 20.5924 7.26724 21.0039 7.73524C21.3681 8.14939 21.6426 8.63437 21.8104 9.15972C22 9.75338 22 10.4141 22 11.7354V18.9118C22 20.0319 22 20.592 21.782 21.0198C21.5903 21.3961 21.2843 21.7021 20.908 21.8938C20.4802 22.1118 19.9201 22.1118 18.8 22.1118H18.2C17.0799 22.1118 16.5198 22.1118 16.092 21.8938C15.7157 21.7021 15.4097 21.3961 15.218 21.0198C15 20.592 15 20.0319 15 18.9118V15.7118C15 15.1518 15 14.8717 14.891 14.6578C14.7951 14.4697 14.6422 14.3167 14.454 14.2208C14.2401 14.1118 13.9601 14.1118 13.4 14.1118H10.6C10.0399 14.1118 9.75992 14.1118 9.54601 14.2208C9.35785 14.3167 9.20487 14.4697 9.10899 14.6578C9 14.8717 9 15.1518 9 15.7118V18.9118C9 20.0319 9 20.592 8.78201 21.0198C8.59027 21.3961 8.28431 21.7021 7.90798 21.8938C7.48016 22.1118 6.9201 22.1118 5.8 22.1118H5.2C4.0799 22.1118 3.51984 22.1118 3.09202 21.8938C2.71569 21.7021 2.40973 21.3961 2.21799 21.0198C2 20.592 2 20.0319 2 18.9118V11.7354Z" fill="currentColor"></path></svg>
                 </p>
@@ -103,15 +103,15 @@ function Navbar() {
             </div>
 
             <div className='md:flex gap-2 items-center hidden '>
-                <div className='flex gap-1 items-center text-blk bg-gray-200 p-2 rounded-[10px] '>
+                <div className='flex gap-1 items-center text-blk bg-gr p-2 rounded-[10px] '>
                     <p><ImagePlus /></p>
                     <p className='text-blk'>Gallery</p>
                 </div>
-                <div className='flex gap-1 items-center bg-gray-200 p-2 rounded-[10px] '>
+                <div className='flex gap-1 items-center text-blk bg-gr p-2 rounded-[10px] '>
                     <p><Headset /></p>
                     <p>Support</p>
                 </div>
-                <div className='bg-gray-200 p-2 rounded-[10px]'>
+                <div className='bg-gr text-blk p-2 rounded-[10px]'>
                     <p><Bell /></p>
                 </div>
                <Toggle/>

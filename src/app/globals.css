@@ -6,6 +6,7 @@
     --color-blk: var(--color-blk);
     --color-wt: var(--color-wt);
     --color-gra: var(--color-gra);
+    --color-gr: var(--color-gr);
     
 }
 
@@ -15,6 +16,7 @@
     --color-blk: black;
     --color-wt: white;
     --color-gra: #374151;
+    --color-gr: #e5e7eb;
 }
 
 .dark {
@@ -23,4 +25,5 @@
     --color-blk: white;
     --color-wt: black;
     --color-gra: white;
+    --color-gr: #2d2f33;
 }

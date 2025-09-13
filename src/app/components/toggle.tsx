@@ -29,7 +29,7 @@ export default function Toggle() {
   return (
     <div
       onClick={toggleTheme}
-      className='bg-gray-200 p-2 cursor-pointer rounded-[4px]'> {isDark ? <Sun /> : <Moon />}
+      className='bg-gr text-blk p-2 cursor-pointer rounded-[4px]'> {isDark ? <Sun /> : <Moon />}
      
     </div>
   )
