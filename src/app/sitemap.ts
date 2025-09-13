@@ -1,6 +1,6 @@
 import { MetadataRoute } from 'next'
 
-const SITE_URL = 'https://cartolink-internship.vercel.app/' // Replace with your actual domain
+const SITE_URL = 'https://cartolink-internship.vercel.app/' 
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
@@ -10,12 +10,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'daily',
       priority: 1,
     },
-    // Add more pages as needed, for example:
-    // {
-    //   url: `${SITE_URL}/about`,
-    //   lastModified: new Date(),
-    //   changeFrequency: 'monthly',
-    //   priority: 0.8,
-    // },
+   
   ]
 }

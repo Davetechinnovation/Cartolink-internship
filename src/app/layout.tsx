@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     siteName: SITE_NAME,
     images: [
       {
-        url: `${SITE_URL}/og-image.jpg`, // Replace with your actual OG image
+        url: `${SITE_URL}/dan.jpg`, 
         width: 1200,
         height: 630,
         alt: SITE_NAME,
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: SITE_NAME,
     description: SITE_DESCRIPTION,
     creator: TWITTER_HANDLE,
-    images: [`${SITE_URL}/dan.jpg`], // Replace with your actual Twitter image
+    images: [`${SITE_URL}/dan.jpg`],
   },
   robots: {
     index: true,
@@ -76,15 +76,14 @@ export const metadata: Metadata = {
   themeColor: '#ffffff',
   viewport: 'width=device-width, initial-scale=1',
   verification: {
-    // Add your Google Search Console verification code here
-    // google: 'your-google-verification-code',
+    google: "iG78RsqOucfXf4q4IISXxiGcUlwXkogR8oNmFt6L3iQ",
   },
   alternates: {
     canonical: SITE_URL,
-    // languages: {
-    //   'en-US': 'https://yourdomain.com/en-US',
-    //   'de-DE': 'https://yourdomain.com/de-DE',
-    // },
+    languages: {
+      'en-US': SITE_URL,
+      'x-default': SITE_URL,
+    },
   },
 };
 
