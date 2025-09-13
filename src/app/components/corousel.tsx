@@ -54,8 +54,9 @@ export default function Carousel() {
                                 width={800}
                                 height={500}
                                 className="rounded-lg object-cover w-full h-auto filter brightness-80"
-                                onLoad={() => setIsLoading(false)}
-                                onError={() => setIsLoading(false)}
+                                priority={i === 0}
+                                onLoad={i === 0 ? () => setIsLoading(false) : undefined}
+                                onError={i === 0 ? () => setIsLoading(false) : undefined}
                             />
                             <div className="absolute bottom-2 sm:bottom-5 left-0 flex items-center justify-center">
                                 <div className="max-w-[400px]  px-4 ">
