@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Bell, ChevronDown, Headset, ImagePlus, Menu, Sun, X } from 'lucide-react';
 
-function page() {
+function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
     return (
         <div className='flex justify-between gap-3 items-center '>
@@ -50,7 +50,7 @@ function page() {
                                     {isMenuOpen ? <X className='w-8 h-8' /> : <Menu className='w-6 h-6' />}
                                 </button>
 
-                                
+
                             </div>
 
                             <div className='flex flex-col px-2 py-3 text-white gap-2  '>
@@ -109,4 +109,4 @@ function page() {
     )
 }
 
-export default page
+export default Navbar
