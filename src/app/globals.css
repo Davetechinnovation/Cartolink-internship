@@ -1,2 +1,23 @@
 @import "tailwindcss";
 
+@theme {
+    --color-background: var(--color-background)
+    --color-bgg: var(--color-bgg);
+    --color-blk: var(--color-blk);
+    --color-wt: var(--color-wt);
+    
+}
+
+:root{
+    --color-background: white;
+    --color-bgg: black;
+    --color-blk: black;
+    --color-wt: white;
+}
+
+.dark {
+    --color-background: black;
+    --color-bgg: white;
+    --color-blk: white;
+    --color-wt: black;
+}

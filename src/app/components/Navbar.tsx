@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { Bell, ChevronDown, Headset, ImagePlus, Menu, Sun, X } from 'lucide-react';
+import Toggle from './toggle';
 
 function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -12,7 +13,7 @@ function Navbar() {
                     <svg aria-label="Krea Logo" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.34 1.266c1.766-.124 3.324 1.105 3.551 2.802.216 1.612-.887 3.171-2.545 3.536-.415.092-.877.066-1.317.122a4.63 4.63 0 0 0-2.748 1.34l-.008.004-.01-.001-.006-.005-.003-.009q0-.009.005-.016a.04.04 0 0 0 .007-.022 438 438 0 0 1-.01-4.541c.003-1.68 1.33-3.086 3.085-3.21"></path><path d="M8.526 15.305c-2.247-.018-3.858-2.23-3.076-4.3a3.31 3.31 0 0 1 2.757-2.11c.384-.04.845-.03 1.215-.098 1.9-.353 3.368-1.806 3.665-3.657.066-.41.031-.9.128-1.335.449-2.016 2.759-3.147 4.699-2.236 1.011.476 1.69 1.374 1.857 2.447q.051.33.034.818c-.22 5.842-5.21 10.519-11.279 10.47m2.831.93a.04.04 0 0 1-.021-.02l-.001-.006.002-.006q0-.003.003-.004l.006-.003q3.458-.792 5.992-3.185.045-.042.083.007c.27.357.554.74.78 1.106a10.6 10.6 0 0 1 1.585 4.89q.037.53.023.819c-.084 1.705-1.51 3.08-3.31 3.09-1.592.01-2.992-1.077-3.294-2.597-.072-.36-.05-.858-.11-1.238q-.282-1.755-1.715-2.84zm-3.369 6.64c-1.353-.235-2.441-1.286-2.684-2.593a5 5 0 0 1-.05-.817V15.14q0-.021.016-.007c.884.786 1.814 1.266 3.028 1.346l.326.01c1.581.051 2.92 1.087 3.229 2.592.457 2.225-1.557 4.195-3.865 3.793"></path></svg>
                     <div className='flex gap-2 items-center'>
                         <div className='bg-gradient-to-r from-[#f0b0ff] via-[#bac9ff] to-[#ceddff] w-[30px] h-[30px] rounded-full '></div>
-                        <p>Benevolentia</p>
+                        <p className='text-blk'>Benevolentia</p>
                         <ChevronDown />
                     </div>
 
@@ -33,19 +34,19 @@ function Navbar() {
                         }`}
                 >
                     <div
-                        className='absolute inset-0 bg-black bg-opacity-50'
+                        className='absolute inset-0 bg-bgg  bg-opacity-50'
                         onClick={() => setIsMenuOpen(false)}
                     ></div>
-                    <div className='relative bg-black min-h-screen w-full ml-auto transition-transform duration-300 ease-in-out'>
-                        <div className='bg-black min-h-screen w-full rounded-[10px] '>
+                    <div className='relative bg-bgg  min-h-screen w-full ml-auto transition-transform duration-300 ease-in-out'>
+                        <div className='bg-bgg  min-h-screen w-full rounded-[10px] '>
                             <div className='flex justify-between p-3 gap-2 items-center'>
-                                <div className=' bg-gray-200  p-1 rounded-[10px]'>
+                                <div className=' bg-gray-200  text-blk p-1 rounded-[10px]'>
                                     <p><Bell /></p>
                                 </div>
                                 <div className='bg-gradient-to-r from-[#f0b0ff] via-[#bac9ff] to-[#ceddff] w-[30px] h-[30px] rounded-full '></div>
                                 <button
                                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                                    className='p-1 focus:outline-none text-white '
+                                    className='p-1 focus:outline-none text-wt '
                                 >
                                     {isMenuOpen ? <X className='w-8 h-8' /> : <Menu className='w-6 h-6' />}
                                 </button>
@@ -53,12 +54,12 @@ function Navbar() {
 
                             </div>
 
-                            <div className='flex flex-col px-2 py-3 text-white gap-2  '>
-                                <div className='flex gap-1 items-center  p-2 rounded-[10px] '>
+                            <div className='flex flex-col px-2 py-3 text-wt gap-2  '>
+                                <div className='flex gap-1 items-center  text-wt p-2 rounded-[10px] '>
                                     <p><ImagePlus /></p>
-                                    <p>Gallery</p>
+                                    <p className='text-wt'>Gallery</p>
                                 </div>
-                                <div className='flex gap-1 items-center p-2 rounded-[10px] '>
+                                <div className='flex gap-1 text-wt items-center p-2 rounded-[10px] '>
                                     <p><Headset /></p>
                                     <p>Support</p>
                                 </div>
@@ -102,9 +103,9 @@ function Navbar() {
             </div>
 
             <div className='md:flex gap-2 items-center hidden '>
-                <div className='flex gap-1 items-center bg-gray-200 p-2 rounded-[10px] '>
+                <div className='flex gap-1 items-center text-blk bg-gray-200 p-2 rounded-[10px] '>
                     <p><ImagePlus /></p>
-                    <p>Gallery</p>
+                    <p className='text-blk'>Gallery</p>
                 </div>
                 <div className='flex gap-1 items-center bg-gray-200 p-2 rounded-[10px] '>
                     <p><Headset /></p>
@@ -113,7 +114,7 @@ function Navbar() {
                 <div className='bg-gray-200 p-2 rounded-[10px]'>
                     <p><Bell /></p>
                 </div>
-                <div className='bg-gray-200 p-2 rounded-[10px]'><Sun /></div>
+               <Toggle/>
                 <div className='bg-gradient-to-r from-[#f0b0ff] via-[#bac9ff] to-[#ceddff] w-[30px] h-[30px] rounded-full '></div>
             </div>
 
