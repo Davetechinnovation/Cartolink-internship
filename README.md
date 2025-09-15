@@ -19,10 +19,15 @@ This project is fully **SEO optimized** and currently ranks **#1 on Google Searc
 
 ## 🌐 Inside the Website
 
-The website was designed with **clarity, responsiveness, and modern UI/UX principles** in mind.
-Here’s a look inside the project:
+The website was built to be pixel-perfect, exactly replicating the design image provided in the assignment.
 
-<img width="1280" height="1200" alt="image" src="https://github.com/user-attachments/assets/2a3a20b2-9dac-4900-8af0-9b36b76d58ad" />
+✅ Implemented with Next.js (App Router) + TypeScript
+✅ Fully styled using Tailwind CSS
+✅ Includes Dark/Light Mode toggle
+✅ Matches the required UI components with attention to responsiveness, clarity, and modern design
+
+![dan](https://github.com/user-attachments/assets/00f33859-f8bb-4f8f-b401-a84a8061c5e2)
+
 
 
 ---
@@ -42,8 +47,8 @@ Here’s a look inside the project:
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/Davetechinnovation/Cartolink-internship.git
+cd Cartolink-internship
 npm install
 ```
 
