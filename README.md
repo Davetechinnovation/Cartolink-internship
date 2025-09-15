@@ -1,8 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+---
 
-First, run the development server:
+# 📌 Cartolink Internship Project
+
+🚀 This is my **Cartolink Internship Assignment** built with [Next.js](https://nextjs.org).
+The project is live here 👉 [cartolink-internship.vercel.app](https://cartolink-internship.vercel.app/)
+
+---
+
+## 🔝 SEO Achievement
+
+This project is fully **SEO optimized** and currently ranks **#1 on Google Search** when searching for **“Cartolink Internish”**.
+
+<img width="1366" height="728" alt="Screenshot (26)" src="https://github.com/user-attachments/assets/0de384fc-203c-422f-82d5-e074aabea67b" />
+
+
+---
+
+## 🌐 Inside the Website
+
+The website was designed with **clarity, responsiveness, and modern UI/UX principles** in mind.
+Here’s a look inside the project:
+
+<img width="1280" height="1200" alt="image" src="https://github.com/user-attachments/assets/2a3a20b2-9dac-4900-8af0-9b36b76d58ad" />
+
+
+---
+
+## ⚙️ Tech Stack
+
+* **Next.js 14** (App Router)
+* **TypeScript**
+* **Tailwind CSS** (for styling)
+* **Vercel** (deployment + hosting)
+* **SEO Optimization** (meta tags, performance, indexing)
+
+---
+
+## 🛠️ Getting Started (For Developers)
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
@@ -14,23 +59,37 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Features
 
-## Learn More
+✅ SEO optimized (Google-indexed, top ranking for internship keyword)
+✅ Fully responsive across devices
+✅ Built with Next.js App Router
+✅ Clean and modern UI with Tailwind CSS
+✅ Deployed on Vercel for fast global performance
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🚀 Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The project is hosted on **Vercel**, ensuring **fast, secure, and scalable performance**.
+You can deploy your own fork instantly with:
 
-## Deploy on Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📌 Purpose
+
+This project was built as part of my **application for the Cartolink Internship program**.
+It demonstrates my skills in **frontend development, SEO optimization, and deploying real-world web apps**.
+
+---
+
+✨ Thank you for reviewing my project!
+I look forward to contributing and learning through this internship opportunity.
+
+---
