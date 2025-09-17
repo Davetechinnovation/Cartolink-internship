@@ -23,7 +23,7 @@ function page() {
 
                 </p>
               </div>
-              <div className='grid md:grid-cols-4 gap-6 sm:gap-x-5 sm:gap-y-4  sm:grid-cols-2 grid-cols-1 sm:pr-5  '>
+              <div className='grid lg:grid-cols-4 gap-6 sm:gap-x-5 sm:gap-y-4  sm:grid-cols-2 grid-cols-1 sm:pr-5  '>
                 <div className='flex justify-between gap-3 items-center '>
                   <div className='flex items-center gap-3 '>
                     <div className='  bg-gradient-to-t from-[#D0E3F1] to-[#294962] w-[30px] h-[30px] flex  justify-center items-center p-4 rounded-[5px]  '>
