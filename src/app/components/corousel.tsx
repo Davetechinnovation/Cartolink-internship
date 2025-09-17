@@ -87,33 +87,35 @@ export default function Carousel() {
                     ))}
                 </div>
             </div>
+            <div className="flex justify-between sm:justify-start  items-center px-4 sm:px-0 sm:block ">
+                {/* Dots */}
+                <div className="flex justify-center mt-4 gap-2">
+                    {images.map((_, i) => (
+                        <button
+                            key={i}
+                            onClick={() => emblaApi && emblaApi.scrollTo(i)}
+                            className={`h-2 w-2 rounded-full cursor-pointer transition-all ${selectedIndex === i ? "bg-blk cursor-pointer scale-125" : "bg-gray-400"
+                                }`}
+                        />
+                    ))}
+                </div>
 
-            {/* Dots */}
-            <div className="flex justify-center mt-4 gap-2">
-                {images.map((_, i) => (
-                    <button
-                        key={i}
-                        onClick={() => emblaApi && emblaApi.scrollTo(i)}
-                        className={`h-2 w-2 rounded-full cursor-pointer transition-all ${selectedIndex === i ? "bg-blk cursor-pointer scale-125" : "bg-gray-400"
-                            }`}
-                    />
-                ))}
+                <div className="flex gap-2 text-blk justify-end mt-4 sm:mt-0 sm:-translate-y-[18px] sm:px-10">
+                    <div
+                        className="bg-d rounded-full w-6 h-6 flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-colors"
+                        onClick={() => emblaApi && emblaApi.scrollPrev()}
+                    >
+                        <ChevronLeft className="w-4 h-4" />
+                    </div>
+                    <div
+                        className="bg-d rounded-full w-6 h-6 flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-colors"
+                        onClick={() => emblaApi && emblaApi.scrollNext()}
+                    >
+                        <ChevronRight className="w-4 h-4" />
+                    </div>
+                </div>
             </div>
 
-            <div className="flex gap-2 text-blk justify-end -translate-y-[18px] sm:px-10">
-                <div 
-                    className="bg-d rounded-full w-6 h-6 flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-colors"
-                    onClick={() => emblaApi && emblaApi.scrollPrev()}
-                >
-                    <ChevronLeft className="w-4 h-4" />
-                </div>
-                <div 
-                    className="bg-d rounded-full w-6 h-6 flex items-center justify-center cursor-pointer hover:bg-gray-200 transition-colors"
-                    onClick={() => emblaApi && emblaApi.scrollNext()}
-                >
-                    <ChevronRight className="w-4 h-4" />
-                </div>
-            </div>
         </div>
     )
 }
