@@ -7,7 +7,7 @@ import Footer from './components/Footer'
 function page() {
   return (
     <div className=' bg-background p-2 '>
-      <div className='border bg-background rounded-[10px] border-gray-300  overflow-x-auto  '>
+      <div className='border bg-background rounded-[10px] border-d  overflow-x-auto  '>
         <div className=' min-w-[250px]'>
           <div className='p-2' >
             <Navbar />
