@@ -14,8 +14,8 @@ function page() {
 
             <Corousel />
 
-            <div className='px-2'>
-              <div className='flex gap-2 items-center pb-3 pt-2 justify-between '>
+            <div className='px-2 pb-[30px] pt-5 '>
+              <div className='flex gap-2 items-center pb-2 pt-2 justify-between '>
                 <p className='text-[23px] text-blk font-semibold ' >General</p>
                 <p className='text-[blue] flex gap-1 items-center  '>
                   <span className='cursor-pointer'><ChevronDown /></span>

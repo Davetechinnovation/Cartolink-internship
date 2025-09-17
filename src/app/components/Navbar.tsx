@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Bell, ChevronDown, Headset, ImagePlus, Menu, Sun, X } from 'lucide-react';
+import { Bell, ChevronDown, Headset, ImagePlus, Menu, X } from 'lucide-react';
 import Toggle from './toggle';
 
 function Navbar() {
@@ -25,7 +25,7 @@ function Navbar() {
                         onClick={() => setIsMenuOpen(!isMenuOpen)}
                         className='p-1 text-blk focus:outline-none'
                     >
-                        {isMenuOpen ? <X className='w-6 h-6' /> : <Menu className='w-6 h-6' />}
+                        {isMenuOpen ? <X className='w-6 h-6' /> : <Menu className='w-5 h-5' />}
                     </button>
                 </div>
 
@@ -56,12 +56,12 @@ function Navbar() {
 
                             <div className='flex flex-col px-2 py-3 text-wt gap-2  '>
                                 <div className='flex gap-1 items-center  text-blk p-2 rounded-[10px] '>
-                                    <p><ImagePlus /></p>
-                                    <p className='text-blk'>Gallery</p>
+                                    <p><ImagePlus className='w-5 h-5' /></p>
+                                    <p className='text-blk text-[13px] '>Gallery</p>
                                 </div>
                                 <div className='flex gap-1 text-blk items-center p-2 rounded-[10px] '>
-                                    <p><Headset /></p>
-                                    <p>Support</p>
+                                    <p><Headset className='w-5 h-5' /></p>
+                                    <p className='text-[13px] '>Support</p>
                                 </div>
 
                             </div>
@@ -104,15 +104,15 @@ function Navbar() {
 
             <div className='lg:flex gap-2 items-center hidden '>
                 <div className='flex gap-1 items-center text-blk bg-gr p-2 rounded-[10px] '>
-                    <p><ImagePlus /></p>
-                    <p className='text-blk'>Gallery</p>
+                    <p><ImagePlus className='w-5 h-5'/></p>
+                    <p className='text-blk  text-[14px]'>Gallery</p>
                 </div>
                 <div className='flex gap-1 items-center text-blk bg-gr p-2 rounded-[10px] '>
-                    <p><Headset /></p>
-                    <p>Support</p>
+                    <p><Headset className='w-5 h-5'/></p>
+                    <p className='text-[14px]'>Support</p>
                 </div>
                 <div className='bg-gr text-blk p-2 rounded-[10px]'>
-                    <p><Bell /></p>
+                    <p><Bell className='w-5 h-5'/></p>
                 </div>
                 <Toggle />
                 <div className='bg-gradient-to-r from-[#f0b0ff] via-[#bac9ff] to-[#ceddff] w-[30px] h-[30px] rounded-full '></div>

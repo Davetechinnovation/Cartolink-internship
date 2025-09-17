@@ -63,7 +63,7 @@ export default function Toggle() {
   return (
     <div
       onClick={toggleTheme}
-      className='bg-gr text-blk p-2 cursor-pointer rounded-[4px]'> {isDark ? <Sun /> : <Moon />}
+      className='bg-gr text-blk sm:p-2 p-1 cursor-pointer rounded-[4px]'> {isDark ? <Sun  className='w-5 h-5' /> : <Moon />}
      
     </div>
   )
