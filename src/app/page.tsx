@@ -202,13 +202,13 @@ function page() {
 
 
             <div className='flex justify-between gap-3 items-center pt-5 px-2 '>
-              <p className='font-semibold text-[20px] '>Gallery</p>
+              <p className='font-semibold text-blk text-[20px] '>Gallery</p>
               <div className='flex gap-2 items-center '>
-                <div className='flex gap-2 items-center '>
+                <div className='flex gap-2 text-blk items-center '>
                   <p><Newspaper className='w-4 h-4' /></p>
                   <p>Legal</p>
                 </div>
-                <div className='flex gap-2 items-center '>
+                <div className='flex gap-2 text-blk items-center '>
                   <p><Wallet className='w-4 h-4' /></p>
                   <p>Pricing</p>
                 </div>
